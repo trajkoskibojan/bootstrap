@@ -1,0 +1,346 @@
+/* ----------------------------------------------- */
+/* BASIC SETUP */
+/* ----------------------------------------------- */
+
+body,
+html {
+    font-family: 'Montserrat', sans-serif;
+    color      : black;
+    overflow-x : hidden;
+}
+
+/* ----------------------------------------------- */
+/* REUSABLE CLASSES */
+/* ----------------------------------------------- */
+.dark-overlay {
+    position  : absolute;
+    background: rgba(0, 0, 0, 0.2);
+    top       : 0;
+    left      : 0;
+    height    : 100%;
+    width     : 100%;
+}
+
+.text-white {
+    color: white !important;
+}
+
+.bg-danger {
+    background-color: #ac2925;
+}
+
+.bg-primary {
+    background-color: #337ab7;
+}
+
+.bg-dark {
+    background-color: #333;
+}
+
+.bg-default {
+    background-color: #f5f5f5;
+}
+
+.br-b {
+    border-bottom: 1px solid #ddd;
+}
+
+.br-t {
+    border-top: 1px solid #ddd;
+}
+
+.bg-color {
+    border-top: 1px solid rgb(24, 24, 24);
+}
+
+.d-flex {
+    display    : -webkit-box;
+    display    : -ms-flexbox;
+    display    : flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.d-none {
+    display: none;
+}
+
+.p-0 {
+    padding: 0 !important;
+}
+
+.p-1 {
+    padding: 1.5rem;
+}
+
+.p-2 {
+    padding: 2rem;
+}
+
+.p-4 {
+    padding: 4rem;
+}
+
+.p-5 {
+    padding: 5rem;
+}
+
+.py-2 {
+    padding-bottom: 2rem !important;
+    padding-top   : 2rem !important;
+}
+
+.py-3 {
+    padding-bottom: 3rem;
+    padding-top   : 3rem;
+}
+
+.py-5 {
+    padding-bottom: 5rem;
+    padding-top   : 5rem;
+}
+
+.pt-5 {
+    padding-top: 5rem;
+}
+
+.pt-15 {
+    padding-top: 15rem;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.mb-2 {
+    margin-bottom: 2rem !important;
+}
+
+.mb-4 {
+    margin-bottom: 4rem;
+}
+
+.mb-10 {
+    margin-bottom: 10rem;
+}
+
+.mr-1 {
+    margin-right: 1rem;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.img-style {
+    width : 100%;
+    height: 100%;
+}
+
+/* ----------------------------------------------- */
+/* NAVBAR */
+/* ----------------------------------------------- */
+
+nav.navbar.navbar-inverse.mb-0 {
+    border          : 5px solid #333333;
+    background-color: #333333;
+    border-radius   : 0;
+}
+
+.navbar-inverse .navbar-nav>.active>a {
+    border-left     : white 3px solid;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover {
+    background-color: transparent;
+}
+
+.navbar {
+    border: none;
+}
+
+/* ----------------------------------------------- */
+/* SHOWCASE SLIDER */
+/* ----------------------------------------------- */
+
+.carousel-control.left {
+    background-image: none;
+}
+
+.carousel-control.right {
+    background-image: none;
+}
+
+.carousel-indicators li {
+    width           : 30px;
+    height          : 3px;
+    border          : none;
+    background-color: rgba(255, 255, 255, .5);
+}
+
+.carousel-indicators .active {
+    width : 30px;
+    height: 3px;
+    border: none;
+    margin: 1px
+}
+
+.carousel-caption {
+    text-shadow: none;
+    right      : 15%;
+    left       : 15%;
+}
+
+.carousel-img-1 {
+    background-image: url('../img/image1.jpg');
+    background-size : cover;
+    height          : 500px;
+}
+
+.carousel-img-2 {
+    background-image: url('../img/image2.jpg');
+    background-size : cover;
+    height          : 500px;
+}
+
+.carousel-img-3 {
+    background-image: url('../img/image3.jpg');
+    background-size : cover;
+    height          : 500px;
+}
+
+
+/* ----------------------------------------------- */
+/* HOME HEADING SECTION */
+/* ----------------------------------------------- */
+
+#home-heading {
+    background-image     : url('../img/lights.jpg');
+    min-height           : 250px;
+    background-attachment: fixed;
+    background-repeat    : no-repeat;
+    background-position  : cover;
+    position             : relative;
+}
+
+/* ----------------------------------------------- */
+/* INFO SECTION */
+/* ----------------------------------------------- */
+
+.btn-outline-danger {
+    color           : #dc3545;
+    background-color: transparent;
+    border-color    : #dc3545;
+}
+
+.btn-outline-danger:hover {
+    color           : #fff;
+    background-color: #dc3545;
+    border-color    : #dc3545;
+}
+
+/* ----------------------------------------------- */
+/* VIDEO PLAY */
+/* ----------------------------------------------- */
+#video-play {
+    position             : relative;
+    min-height           : 200px;
+    background           : url('../img/media.jpg');
+    background-attachment: fixed;
+    background-repeat    : no-repeat;
+    background-position  : cover;
+    text-align           : center;
+    color                : #fff;
+}
+
+.modal-dialog {
+    width: 450px;
+}
+
+/* ----------------------------------------------- */
+/* NEWSLETTER */
+/* ----------------------------------------------- */
+
+#newsletter {
+    background-color: #333333;
+}
+
+/* ----------------------------------------------- */
+/* FOOTER */
+/* ----------------------------------------------- */
+#main-footer {
+    background: #000;
+    color     : #fff;
+}
+
+/* ----------------------------------------------- */
+/* REST PAGES */
+/* ----------------------------------------------- */
+#page-header {
+    height               : 400px;
+    background           : url('../img/image1.jpg');
+    background-position  : cover;
+    background-attachment: fixed;
+    color                : #fff;
+}
+
+.about-img {
+    margin-top: -8rem;
+}
+
+.card {
+    border-radius: .25rem;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+blockquote {
+    border-left: none;
+}
+
+.control-width {
+    width: 2%;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.panel-style,
+.panel-style>.panel-heading {
+    background-color: #212121;
+    border-color    : #212121;
+}
+
+.panel-style>.panel-heading+.panel-collapse>.panel-body {
+    border-top-color: #212121;
+}
+
+.panel-heading>a:hover {
+    text-decoration: none;
+    cursor         : text;
+}
+
+.panel-heading>a {
+    color: transparent !important;
+}
+
+a:focus {
+    outline: none !important;
+}
+
+.modal-dialog {
+    width: 450px;
+}

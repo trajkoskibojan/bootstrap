@@ -1,0 +1,87 @@
+/* Small phones to small tablets: from 481px to 768px */
+@media only screen and (max-width: 767px) {
+    .d-flex {
+        display: block;
+    }
+
+    .img-space {
+        margin-bottom: 2rem;
+    }
+
+    .row.mb-4 {
+        margin-bottom: 0;
+    }
+
+    .modal-dialog {
+        width: 400px;
+    }
+
+    div#accordion {
+        padding: 0 !important;
+    }
+
+    .navbar-collapse.collapse {
+        display: block !important;
+    }
+
+    .navbar-toggle {
+        display: none;
+    }
+
+    .navbar-collapse.collapse.in {
+        display: none !important;
+    }
+
+    .navbar-nav {
+        float: right !important;
+    }
+
+    .navbar-nav>li {
+        float: left;
+    }
+
+    .navbar-header {
+        float: left;
+    }
+
+    nav.navbar.navbar-inverse.mb-0 {
+        border: 0;
+    }
+
+    .navbar-brand {
+        padding: 19px 15px;
+    }
+}
+
+
+
+/* Small phones: from 0 to 425px */
+@media only screen and (max-width: 26.5625em) {
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+
+    .navbar-nav {
+        float: none !important;
+    }
+
+    .navbar-nav>li {
+        float: none;
+    }
+
+    .navbar-brand {
+        padding: 15px;
+    }
+}
